@@ -42,10 +42,10 @@ namespace Lineer_Cebir
             // 
             // btnToplama
             // 
-            this.btnToplama.Location = new System.Drawing.Point(63, 53);
+            this.btnToplama.Location = new System.Drawing.Point(81, 40);
             this.btnToplama.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.btnToplama.Name = "btnToplama";
-            this.btnToplama.Size = new System.Drawing.Size(549, 94);
+            this.btnToplama.Size = new System.Drawing.Size(247, 43);
             this.btnToplama.TabIndex = 0;
             this.btnToplama.Text = "Toplama";
             this.btnToplama.UseVisualStyleBackColor = true;
@@ -53,10 +53,10 @@ namespace Lineer_Cebir
             // 
             // btnCikarma
             // 
-            this.btnCikarma.Location = new System.Drawing.Point(63, 159);
+            this.btnCikarma.Location = new System.Drawing.Point(81, 148);
             this.btnCikarma.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.btnCikarma.Name = "btnCikarma";
-            this.btnCikarma.Size = new System.Drawing.Size(549, 92);
+            this.btnCikarma.Size = new System.Drawing.Size(247, 43);
             this.btnCikarma.TabIndex = 1;
             this.btnCikarma.Text = "Çıkarma";
             this.btnCikarma.UseVisualStyleBackColor = true;
@@ -64,10 +64,10 @@ namespace Lineer_Cebir
             // 
             // btnCarpma
             // 
-            this.btnCarpma.Location = new System.Drawing.Point(63, 263);
+            this.btnCarpma.Location = new System.Drawing.Point(81, 95);
             this.btnCarpma.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.btnCarpma.Name = "btnCarpma";
-            this.btnCarpma.Size = new System.Drawing.Size(549, 96);
+            this.btnCarpma.Size = new System.Drawing.Size(247, 41);
             this.btnCarpma.TabIndex = 2;
             this.btnCarpma.Text = "Çarpma";
             this.btnCarpma.UseVisualStyleBackColor = true;
@@ -75,10 +75,10 @@ namespace Lineer_Cebir
             // 
             // btnDeterminant
             // 
-            this.btnDeterminant.Location = new System.Drawing.Point(63, 479);
+            this.btnDeterminant.Location = new System.Drawing.Point(81, 252);
             this.btnDeterminant.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.btnDeterminant.Name = "btnDeterminant";
-            this.btnDeterminant.Size = new System.Drawing.Size(549, 90);
+            this.btnDeterminant.Size = new System.Drawing.Size(247, 47);
             this.btnDeterminant.TabIndex = 3;
             this.btnDeterminant.Text = "Determinant Bulma";
             this.btnDeterminant.UseVisualStyleBackColor = true;
@@ -86,10 +86,10 @@ namespace Lineer_Cebir
             // 
             // btnInvolutif
             // 
-            this.btnInvolutif.Location = new System.Drawing.Point(63, 683);
+            this.btnInvolutif.Location = new System.Drawing.Point(81, 370);
             this.btnInvolutif.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.btnInvolutif.Name = "btnInvolutif";
-            this.btnInvolutif.Size = new System.Drawing.Size(549, 89);
+            this.btnInvolutif.Size = new System.Drawing.Size(247, 47);
             this.btnInvolutif.TabIndex = 4;
             this.btnInvolutif.Text = "Involutif mi?";
             this.btnInvolutif.UseVisualStyleBackColor = true;
@@ -98,7 +98,7 @@ namespace Lineer_Cebir
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(145, 22);
+            this.label1.Location = new System.Drawing.Point(14, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(395, 25);
@@ -107,10 +107,10 @@ namespace Lineer_Cebir
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(63, 369);
+            this.button1.Location = new System.Drawing.Point(81, 201);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(549, 100);
+            this.button1.Size = new System.Drawing.Size(247, 41);
             this.button1.TabIndex = 6;
             this.button1.Text = "Sabit Sayı ile Çarpma";
             this.button1.UseVisualStyleBackColor = true;
@@ -118,10 +118,10 @@ namespace Lineer_Cebir
             // 
             // btnTers
             // 
-            this.btnTers.Location = new System.Drawing.Point(63, 581);
+            this.btnTers.Location = new System.Drawing.Point(81, 311);
             this.btnTers.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.btnTers.Name = "btnTers";
-            this.btnTers.Size = new System.Drawing.Size(549, 90);
+            this.btnTers.Size = new System.Drawing.Size(247, 47);
             this.btnTers.TabIndex = 7;
             this.btnTers.Text = "Tersini Alma";
             this.btnTers.UseVisualStyleBackColor = true;
@@ -131,7 +131,7 @@ namespace Lineer_Cebir
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(667, 798);
+            this.ClientSize = new System.Drawing.Size(416, 431);
             this.Controls.Add(this.btnTers);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);

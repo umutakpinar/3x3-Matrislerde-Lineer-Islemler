@@ -32,6 +32,7 @@ namespace Lineer_Cebir
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormInvolutif));
             this.matrisPanel = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.btnSayi = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -44,7 +45,6 @@ namespace Lineer_Cebir
             this.btnA13 = new System.Windows.Forms.Button();
             this.btnA12 = new System.Windows.Forms.Button();
             this.btnA11 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
             this.hesapPanel = new System.Windows.Forms.Panel();
             this.btnHesapla = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
@@ -85,6 +85,16 @@ namespace Lineer_Cebir
             this.label2.Size = new System.Drawing.Size(287, 25);
             this.label2.TabIndex = 23;
             this.label2.Text = "Girilen Matris Involutif mi?";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Location = new System.Drawing.Point(12, 348);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(438, 20);
+            this.label3.TabIndex = 36;
+            this.label3.Text = "\"Karesi birim matrise eşit olan matrise \"Involutif\" matris denir.\"";
             // 
             // btnSayi
             // 
@@ -215,16 +225,6 @@ namespace Lineer_Cebir
             this.btnA11.UseVisualStyleBackColor = true;
             this.btnA11.Click += new System.EventHandler(this.btnA11_Click);
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(12, 348);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(438, 20);
-            this.label3.TabIndex = 36;
-            this.label3.Text = "\"Karesi birim matrise eşit olan matrise \"Involutif\" matris denir.\"";
-            // 
             // hesapPanel
             // 
             this.hesapPanel.Controls.Add(this.btnHesapla);
@@ -234,7 +234,7 @@ namespace Lineer_Cebir
             this.hesapPanel.Controls.Add(this.textboxSayi);
             this.hesapPanel.Location = new System.Drawing.Point(0, 375);
             this.hesapPanel.Name = "hesapPanel";
-            this.hesapPanel.Size = new System.Drawing.Size(1186, 234);
+            this.hesapPanel.Size = new System.Drawing.Size(1186, 166);
             this.hesapPanel.TabIndex = 42;
             // 
             // btnHesapla
@@ -294,7 +294,7 @@ namespace Lineer_Cebir
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 611);
+            this.ClientSize = new System.Drawing.Size(1147, 534);
             this.Controls.Add(this.hesapPanel);
             this.Controls.Add(this.matrisPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
